@@ -1,1 +1,5 @@
 rootProject.name = 'swagger-error-spec-example'
+
+include 'example-api'
+include 'common-swagger'
+include 'common-api'
