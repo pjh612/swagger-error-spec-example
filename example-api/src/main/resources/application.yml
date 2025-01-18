@@ -1,0 +1,14 @@
+spring:
+    application:
+        name: swagger-error-spec-example
+    profiles:
+        active: local
+
+springdoc:
+    info:
+        title: ${spring.application.name}
+        description: ${spring.application.name} docs for ${spring.profiles.active}
+        contact:
+            name: Jinhyung Park
+            email: pjh_jn@naver.com
+            url: https://github.com/pjh612/swagger-error-spec-example
