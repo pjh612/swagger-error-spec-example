@@ -2,7 +2,6 @@ package com.example.exampleapi.controller;
 
 import com.example.commonswagger.annotation.ApiErrorCodeExample;
 import com.example.commonswagger.annotation.ExceptionCodeExample;
-import com.example.exampleapi.exception.BasicExceptionCodeConverter;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
